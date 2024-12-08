@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>SMMFormula</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border position-relative text-primary"
+                style="width: 6rem; height: 6rem"
+                role="status"
+            ></div>
+            <img
+                class="position-absolute top-50 start-50 translate-middle"
+                src="img/icons/icon-1.png"
+                alt="Icon"
+            />
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div
+            class="container-fluid bg-dark p-0 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="row gx-0 d-none d-lg-flex">
+                <div class="col-lg-7 px-5 text-start">
+                    <div
+                        class="h-100 d-inline-flex align-items-center py-3 me-3"
+                    >
+                        <a class="text-body px-2" href="tel:+0123456789"
+                            ><i class="fa fa-phone-alt text-primary me-2"></i
+                            >+77769848888</a
+                        >
+                        <a
+                            class="text-body px-2"
+                            href="mailto:smm_formula@gmail.com"
+                            ><i
+                                class="fa fa-envelope-open text-primary me-2"
+                            ></i
+                            >smm_formula@gmail.com</a
+                        >
+                    </div>
+                </div>
+                <div class="col-lg-5 px-5 text-end">
+                    <div
+                        class="h-100 d-inline-flex align-items-center py-3 me-2"
+                    >
+                        <a class="text-body px-2" href="terms-of-use.html"
+                            >Условия использования</a
+                        >
+                        <a class="text-body px-2" href="privacy-policy.html"
+                            >Конфиденциальность</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h1
+                    class="text-primary m-0"
+                    style="border-bottom: 2px solid #93385fff"
+                >
+                    SMMFormula
+                    <img
+                        style="
+                            width: 40px;
+                            height: 40px;
+                            margin-left: -8px;
+                            margin-bottom: 5px;
+                        "
+                        src="img/logo.png"
+                        alt=""
+                    />
+                </h1>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Главная</a
+                    >
+                    <a href="about.html" class="nav-item nav-link">О нас</a>
+                    <a href="service.html" class="nav-item nav-link">Услуги</a>
+                    <a href="testimonial.html" class="nav-item nav-link"
+                        >Отзывы</a
+                    >
+                    <a href="contact.html" class="nav-item nav-link"
+                        >Контакты</a
+                    >
+                </div>
+                <a
+                    href="index.html#appointment"
+                    class="btn btn-primary py-2 px-4 d-none d-lg-block"
+                    >Записаться</a
+                >
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="owl-carousel header-carousel position-relative">
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-1.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-1 text-white animated slideInDown"
+                                    >
+                                        Основы SMM стратегии
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Изучите основные принципы социального
+                                        медиа маркетинга (SMM) и узнайте, как
+                                        создать эффективное онлайн-присутствие
+                                        для вашего бизнеса. Этот модуль
+                                        познакомит вас с ключевыми методами
+                                        продвижения бренда и взаимодействия с
+                                        аудиторией на различных социальных
+                                        платформах.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-2.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-1 text-white animated slideInDown"
+                                    >
+                                        Продвинутые инструменты и техники
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Поднимитесь на новый уровень с
+                                        использованием продвинутых инструментов
+                                        и стратегий SMM. Узнайте, как
+                                        оптимизировать контент, анализировать
+                                        результаты кампаний и эффективно
+                                        управлять платной рекламой для
+                                        максимизации возврата инвестиций и
+                                        достижения ваших целей.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-3.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-3.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-1 text-white animated slideInDown"
+                                    >
+                                        Измерение и анализ успеха
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Успех любой SMM стратегии зависит от
+                                        способности анализировать результаты. В
+                                        этом модуле вы научитесь использовать
+                                        аналитические инструменты, отслеживать
+                                        производительность и адаптировать свои
+                                        стратегии для постоянного улучшения
+                                        результатов.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="approach-img">
+                            <img
+                                class="img-fluid"
+                                src="img/approach.jpg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h4 class="section-title">Наш подход</h4>
+                        <h1 class="display-5 mb-4">
+                            Наш подход к стратегии SMM
+                        </h1>
+                        <p>
+                            Основной описание: В нашем курсе по стратегии Social
+                            Media Marketing мы предлагаем целостный и
+                            систематичный подход к созданию и оптимизации вашего
+                            онлайн-присутствия. Наша методика основывается на
+                            многолетнем опыте в области цифрового маркетинга и
+                            включает комбинацию теории и практических
+                            упражнений, которые помогут вам не только понять
+                            основы SMM, но и использовать новейшие тренды и
+                            технологии для достижения измеримых результатов.
+                            Целевая аудитория и персонализация: Сначала мы
+                            сосредотачиваемся на идентификации и анализе целевой
+                            аудитории. Понимание потребностей, предпочтений и
+                            поведения вашего аудитории является ключевым
+                            элементом успешной стратегии.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Facts Start -->
+        <div class="container-xxl py-5">
+            <div class="container pt-5">
+                <div class="row g-4">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="fact-item text-center bg-light h-100 p-5 pt-5"
+                        >
+                            <h3 class="mb-3">Практические навыки и опыт</h3>
+                            <p class="mb-0">
+                                Курс предоставит вам не только теоретические
+                                знания, но и практический опыт. Вы научитесь
+                                создавать и реализовывать реальные
+                                SMM-стратегии, которые можно немедленно
+                                применить в вашем бизнесе. Каждый модуль
+                                включает практические задания и кейс-стадии,
+                                которые помогут лучше понять, как работает
+                                эффективная онлайн-маркетинговая стратегия.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="fact-item text-center bg-light h-100 p-5 pt-5"
+                        >
+                            <h3 class="mb-3">Новейшие тренды и инструменты</h3>
+                            <p class="mb-0">
+                                Мир SMM постоянно меняется, и наш курс поможет
+                                вам быть на гребне новых трендов. Вы узнаете о
+                                новейших инструментах и методах, которые помогут
+                                эффективно управлять социальными сетями, от
+                                анализа данных до автоматизации кампаний. Это
+                                даст вам конкурентное преимущество и поможет
+                                адаптировать ваши стратегии под актуальные
+                                тенденции.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="fact-item text-center bg-light h-100 p-5 pt-5"
+                        >
+                            <h3 class="mb-3">Измеримые результаты</h3>
+                            <p class="mb-0">
+                                Одной из основных целей курса является научить
+                                вас достигать измеримых результатов. Будь то
+                                увеличение трафика на сайт, улучшение
+                                взаимодействия с клиентами или рост конверсий,
+                                мы сосредоточимся на том, как правильно измерять
+                                и анализировать успех ваших кампаний и постоянно
+                                оптимизировать для достижения лучших
+                                результатов.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+        <!-- Feature Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="display-5 mb-4">
+                            Почему выбрать именно нас?
+                        </h1>
+                        <p class="mb-4">
+                            Наша SMM стратегия предлагает уникальный подход,
+                            который сочетает в себе актуальные тренды,
+                            практический опыт и измеримые результаты. Благодаря
+                            нашим курсам вы научитесь эффективно использовать
+                            социальные медиа для продвижения вашего бренда,
+                            привлечения правильной аудитории и достижения ваших
+                            бизнес-целей. Мы готовы вести вас к успеху с помощью
+                            проверенных методов и инструментов, которые работают
+                            в реальном мире.
+                        </p>
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="d-flex align-items-start">
+                                    <img
+                                        class="flex-shrink-0"
+                                        src="img/icons/icon-2.png"
+                                        alt="Icon"
+                                    />
+                                    <div class="ms-4">
+                                        <h3>Индивидуальный подход</h3>
+                                        <p class="mb-0">
+                                            Каждый студент имеет свои
+                                            потребности и цели, поэтому мы
+                                            адаптируем наши курсы так, чтобы вы
+                                            могли применить полученные знания в
+                                            вашей конкретной области бизнеса.
+                                            Наши уроки разработаны таким
+                                            образом, чтобы подходить для разных
+                                            уровней опыта, от начинающих до
+                                            продвинутых.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex align-items-start">
+                                    <img
+                                        class="flex-shrink-0"
+                                        src="img/icons/icon-3.png"
+                                        alt="Icon"
+                                    />
+                                    <div class="ms-4">
+                                        <h3>
+                                            Акцент на практические результаты
+                                        </h3>
+                                        <p class="mb-0">
+                                            Мы не учим только теории – мы
+                                            ориентируемся на реальные
+                                            результаты. Каждый шаг, который вы
+                                            изучите, будет иметь прямое
+                                            применение в ваших SMM кампаниях. По
+                                            завершению курса у вас будут
+                                            конкретные инструменты и стратегии,
+                                            которые можно немедленно внедрить
+                                            для улучшения вашего
+                                            онлайн-присутствия.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex align-items-start">
+                                    <img
+                                        class="flex-shrink-0"
+                                        src="img/icons/icon-4.png"
+                                        alt="Icon"
+                                    />
+                                    <div class="ms-4">
+                                        <h3>Поддержка от экспертов</h3>
+                                        <p class="mb-0">
+                                            В течение всего курса у вас будет
+                                            доступ к экспертам с многолетним
+                                            опытом в области цифрового
+                                            маркетинга и SMM. Мы здесь, чтобы
+                                            помочь вам с вопросами, предоставить
+                                            обратную связь по вашим кампаниям и
+                                            помочь улучшить ваши стратегии,
+                                            чтобы вы добились максимального
+                                            успеха.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-img">
+                            <img
+                                class="img-fluid"
+                                src="img/benefit1.jpg"
+                                alt=""
+                            />
+                            <img
+                                class="img-fluid"
+                                src="img/benefit2.jpg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- Appointment Start -->
+        <div id="appointment" class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5" style="align-items: center">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h4 class="section-title">
+                            Получите консультацию бесплатно!
+                        </h4>
+                        <h1 class="display-5 mb-4">
+                            Бесплатная консультация по вашей SMM стратегии
+                        </h1>
+                        <p class="mb-4">
+                            Хотите улучшить свои навыки в области Social Media
+                            Marketing, но не знаете с чего начать? Наша
+                            бесплатная консультация — это отличный способ
+                            получить экспертные рекомендации и направляющие от
+                            профессионалов в области цифрового маркетинга. Во
+                            время консультации вы сможете поделиться своими
+                            целями, вопросами и проблемами, а наши эксперты
+                            дадут вам полезные советы и стратегии, которые вы
+                            сможете немедленно применить. Независимо от того,
+                            являетесь ли вы новичком или уже имеете опыт, наша
+                            цель — помочь вам найти самые эффективные способы
+                            использования социальных медиа для продвижения
+                            вашего бренда. Не упустите шанс получить
+                            персонализированную консультацию и профессиональные
+                            рекомендации, которые помогут вам добиться успеха в
+                            динамичном мире SMM.
+                        </p>
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="d-flex">
+                                    <div
+                                        class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light"
+                                        style="width: 65px; height: 65px"
+                                    >
+                                        <i
+                                            class="fa fa-2x fa-phone-alt text-primary"
+                                        ></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-2">Позвоните нам сейчас</p>
+                                        <h3 class="mb-0">+77769848888</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex">
+                                    <div
+                                        class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light"
+                                        style="width: 65px; height: 65px"
+                                    >
+                                        <i
+                                            class="fa fa-2x fa-envelope-open text-primary"
+                                        ></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-2">Напишите нам сейчас</p>
+                                        <h3 class="mb-0">
+                                            smm_formula@gmail.com
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="row g-3">
+                            <div class="col-12 col-sm-6">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Ваше имя"
+                                    style="height: 55px"
+                                />
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    placeholder="Ваш e-mail"
+                                    style="height: 55px"
+                                    id="email"
+                                />
+                                <div
+                                    id="result"
+                                    style="color: red; font-size: 12px"
+                                ></div>
+                            </div>
+                            <div class="col-12">
+                                <textarea
+                                    class="form-control"
+                                    rows="5"
+                                    placeholder="Сообщение"
+                                ></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button
+                                    class="btn btn-primary w-100 py-3"
+                                    type="submit"
+                                    id="submit"
+                                    onclick="sendForm()"
+                                >
+                                    Забронировать встречу
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Appointment End -->
+
+        <!-- Project Start -->
+        <div class="container-xxl project py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <h4 class="section-title">
+                        Откройте для себя наши уникальные курсы
+                    </h4>
+                    <h1 class="display-5 mb-4">
+                        Особенности нашего курса по SMM-продвижению
+                    </h1>
+                    <p>
+                        Наш курс по SMM-продвижению разработан для современных
+                        предпринимателей и маркетологов. С акцентом на
+                        актуальные тренды и практические применения, мы
+                        сосредоточены на развитии навыков, которые необходимы
+                        для успеха в динамичном мире социальных медиа. В
+                        следующих пунктах мы представим основные особенности,
+                        которые делают наш курс уникальным.
+                    </p>
+                </div>
+                <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-lg-4">
+                        <div
+                            class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4"
+                        >
+                            <button
+                                class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active"
+                                data-bs-toggle="pill"
+                                data-bs-target="#tab-pane-1"
+                                type="button"
+                            >
+                                <h3 class="m-0">01. Онлайн-обучение</h3>
+                            </button>
+                            <button
+                                class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
+                                data-bs-toggle="pill"
+                                data-bs-target="#tab-pane-2"
+                                type="button"
+                            >
+                                <h3 class="m-0">
+                                    02. Индивидуальные учебные планы
+                                </h3>
+                            </button>
+                            <button
+                                class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
+                                data-bs-toggle="pill"
+                                data-bs-target="#tab-pane-3"
+                                type="button"
+                            >
+                                <h3 class="m-0">03. Экспертное руководство</h3>
+                            </button>
+                            <button
+                                class="nav-link w-100 d-flex align-items-center text-start p-4 mb-0"
+                                data-bs-toggle="pill"
+                                data-bs-target="#tab-pane-4"
+                                type="button"
+                            >
+                                <h3 class="m-0">04. Практическое применение</h3>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="tab-content w-100">
+                            <div
+                                class="tab-pane fade show active"
+                                id="tab-pane-1"
+                            >
+                                <div class="row g-4">
+                                    <div
+                                        class="col-md-6"
+                                        style="min-height: 350px"
+                                    >
+                                        <div class="position-relative h-100">
+                                            <img
+                                                class="position-absolute img-fluid w-100 h-100"
+                                                src="img/project-1.jpg"
+                                                style="object-fit: cover"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h1 class="mb-3">
+                                            Учитесь активно, а не пассивно
+                                        </h1>
+                                        <p class="mb-4">
+                                            Наши уроки созданы так, чтобы
+                                            вовлекать участников в процесс
+                                            обучения. Через интерактивные
+                                            упражнения, обсуждения и групповые
+                                            проекты вы научитесь применять
+                                            теорию на практике. Этот подход
+                                            помогает лучше запомнить полученные
+                                            знания и более эффективно их
+                                            использовать.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab-pane-2">
+                                <div class="row g-4">
+                                    <div
+                                        class="col-md-6"
+                                        style="min-height: 350px"
+                                    >
+                                        <div class="position-relative h-100">
+                                            <img
+                                                class="position-absolute img-fluid w-100 h-100"
+                                                src="img/project-2.jpg"
+                                                style="object-fit: cover"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h1 class="mb-3">
+                                            Выберите свой темп обучения
+                                        </h1>
+                                        <p class="mb-4">
+                                            Каждый студент имеет свои
+                                            потребности и цели, поэтому мы
+                                            предлагаем гибкие учебные планы. Вы
+                                            можете адаптировать темп курса в
+                                            соответствии с вашими предпочтениями
+                                            и временем. Независимо от того,
+                                            предпочитаете ли вы интенсивное
+                                            обучение или постепенный подход, у
+                                            нас есть формат, который подходит
+                                            вам.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab-pane-3">
+                                <div class="row g-4">
+                                    <div
+                                        class="col-md-6"
+                                        style="min-height: 350px"
+                                    >
+                                        <div class="position-relative h-100">
+                                            <img
+                                                class="position-absolute img-fluid w-100 h-100"
+                                                src="img/project-3.jpg"
+                                                style="object-fit: cover"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h1 class="mb-3">
+                                            Учитесь у профессионалов
+                                        </h1>
+                                        <p class="mb-4">
+                                            Наш курс ведут опытные эксперты в
+                                            области SMM и цифрового маркетинга.
+                                            Вы получите доступ к их ценным
+                                            советам и проверенным практикам,
+                                            которые помогут избежать
+                                            распространенных ошибок. Эксперты
+                                            всегда рядом, чтобы поддержать вас и
+                                            ответить на ваши вопросы на
+                                            протяжении всего обучения.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab-pane-4">
+                                <div class="row g-4">
+                                    <div
+                                        class="col-md-6"
+                                        style="min-height: 350px"
+                                    >
+                                        <div class="position-relative h-100">
+                                            <img
+                                                class="position-absolute img-fluid w-100 h-100"
+                                                src="img/project-4.jpg"
+                                                style="object-fit: cover"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h1 class="mb-3">
+                                            Применяйте свои знания на реальных
+                                            проектах
+                                        </h1>
+                                        <p class="mb-4">
+                                            По завершении курса у вас будет
+                                            возможность применить полученные
+                                            навыки на реальных проектах. Наши
+                                            практические задания и симуляции
+                                            позволят вам протестировать ваши
+                                            умения в безопасной среде. Вы
+                                            сможете создать собственные
+                                            SMM-кампании и получить ценнейший
+                                            опыт, который сразу можно
+                                            использовать в вашем бизнесе.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Project End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="text-light mb-4">Наша платформа</h3>
+                        <p>
+                            Наша платформа сосредоточена на предоставлении
+                            качественных образовательных курсов в области
+                            SMM-продвижения. С нашей экспертной командой,
+                            имеющей богатый опыт в цифровом маркетинге, мы
+                            поможем вам развить практические навыки и знания,
+                            необходимые для успеха в мире социальных медиа.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="text-light mb-4">Адрес</h3>
+                        <p class="mb-2">
+                            <i
+                                class="fa fa-map-marker-alt text-primary me-3"
+                            ></i
+                            >просп. Мангилик Ел, С4/6, Астана 150000, Казахстан
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt text-primary me-3"></i
+                            >+77769848888
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope text-primary me-3"></i>
+                            smm_formula@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="text-light mb-4">Быстрые ссылки</h3>
+                        <a class="btn btn-link" href="about.html">О нас</a>
+                        <a class="btn btn-link" href="contact.html"
+                            >Связаться с нами</a
+                        >
+                        <a class="btn btn-link" href="service.html"
+                            >Наши услуги</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Условия</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Наша Политика</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование файлов cookie
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует файлы cookie для предоставления вам
+                    более удобного и актуального опыта работы с сайтом. Узнайте
+                    больше о том, как мы используем файлы cookie для улучшения
+                    ваших знаний в онлайн-обучении, маркетинге и создании планов
+                    продвижения.
+                    <a href="#">Подробнее...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
